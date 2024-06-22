@@ -1,4 +1,4 @@
-import json
+import json, pytest
 
 def test_health(client):
     res = client.get("/health")
